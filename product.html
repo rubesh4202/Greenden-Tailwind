@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!-- Tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="p-4 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl font-medium">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-500 cursor-pointer hidden md:flex">
+            <li class="hover:text-black hover:underline"><a href="index.html">Home</a></li>
+            <li class="hover:text-black hover:underline"><a href="product.html">Products</a></li>
+            <li class="hover:text-black hover:underline"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- products -->
+    <div>
+        <div class="text-center mt-10">
+            <h1 class="text-3xl font-bold">Our Products</h1>
+            <input type="text" placeholder="Search for products" class="mt-5 border border-black p-2 w-4/5">
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 text-center">
+            <div class="p-5">
+                <img src="./images/Product1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Rosemary</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product2.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Rose</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product3.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Lily</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product4.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Cactus</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product5.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Hibiscus</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product6.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Lotus</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product7.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-medium">Anthurium</p>
+                <p class="font-medium">$12</p>
+            </div>
+
+            <div class="p-5">
+                <img src="./images/Product8.png" class="inline hover:shadow-xl transform hover:-translate-y-2"+>
+                <p class="font-medium">Peace Lily</p>
+                <p class="font-medium">$12</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-green-100 mt-7 p-5">
+        <h1 class="font-bold text-4xl mt-2 mb-5">GREENDEN</h1>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos quod iure
+            quos! Nobis sit delectus magni saepe dolorem illum?</p>
+        <p class="font-medium text-xl">&copy; 2024 Greenden.com</p>
+    </footer>
+
+</body>
+
+</html>
