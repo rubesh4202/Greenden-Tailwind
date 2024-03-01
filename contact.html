@@ -15,8 +15,8 @@
     <nav class="p-4 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl font-medium">GREENDEN</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="w-6 h-6 md:hidden">
+        <svg id="menu_icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -27,6 +27,17 @@
             <li class="hover:text-black hover:underline"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Sidenav -->
+    <div id="side_nav" class="bg-green-100 fixed top-0 z-20 transition-all duration-1000"
+        style="width: 30%; height: 100vh; right: -30%;">
+        <p id="close" class="text-right mt-10 mr-5 cursor-pointer">X</p>
+        <ul class="flex flex-col items-center gap-10 text-gray-500 cursor-pointer md:flex">
+            <li class="hover:text-black hover:underline"><a href="index.html">Home</a></li>
+            <li class="hover:text-black hover:underline"><a href="product.html">Products</a></li>
+            <li class="hover:text-black hover:underline"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
 
     <!-- Contact form -->
     <section class="bg-white dark:bg-gray-900">
@@ -72,6 +83,8 @@
             quos! Nobis sit delectus magni saepe dolorem illum?</p>
         <p class="font-medium text-xl">&copy; 2024 Greenden.com</p>
     </footer>
+
+    <script src="contact.js"></script>
 
 </body>
 
